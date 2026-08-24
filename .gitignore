@@ -1,0 +1,42 @@
+# ── Virtual environment ──
+venv/
+.venv/
+env/
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter checkpoints ──
+.ipynb_checkpoints/
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Large dataset files ──
+dataset.csv
+adversarial_urls_2000.csv
+adversarial_urls_5000.csv
+
+# ── Streamlit cache ──
+.streamlit/
+
+# ── Unrelated projects ──
+Restaurant_Project/
+Restaurant_Project.py
+
+# ── Misc ──
+*.log
